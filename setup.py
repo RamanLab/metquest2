@@ -24,7 +24,7 @@ datafiles = [(d, [os.path.join(d,f) for f in files])
 
 setup(
     name='metquest',
-    version='0.1.31',
+    version='2.0.0',
     packages=find_packages(),
     project_urls={
         'Source': 'https://github.com/dinesh-kumar-k-b/metquest2.0.git'
