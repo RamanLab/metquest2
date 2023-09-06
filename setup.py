@@ -7,6 +7,10 @@ requirements = [
     'scipy',
     'networkx>=2.1',
     'python-libsbml',
+    'seaborn',
+    'matplotlib',
+    'pandas',
+    'pyvis'
 ]
 
 try:
@@ -23,14 +27,14 @@ setup(
     version='0.1.31',
     packages=find_packages(),
     project_urls={
-        'Source': 'https://github.com/RamanLab/metquest'
+        'Source': 'https://github.com/dinesh-kumar-k-b/metquest2.0.git'
     },
 
     install_requires=requirements,
     setup_requires=[],
     scripts=['bin/metquest.sh'],
-    author='Aarthi Ravikrishnan',
-    author_email='aarthiravikrishnan@gmail.com',
+    author='Aarthi Ravikrishnan and Dinesh Kumar Kuppa Baskaran',
+    author_email='dineshmine7@gmail.com, aarthiravikrishnan@gmail.com',
     description='MetQuest: Enumerating all possible biosynthetic pathways in metabolic networks ',
     long_description=description,
     license='LGPL/GPL v2+',
